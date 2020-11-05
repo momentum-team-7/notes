@@ -46,22 +46,26 @@ h1 {
   font-size: 2rem;
 }
 
+// selects all h1 and h2 elements
 h1,
 h2 {
   color: #FFFFFF;
-} // selects all h1 and h2 elements
+}
 
+// selects all elements with the class "selfie"
 .selfie {
   border: 4px solid #000000;
-} // selects all elements with the class "selfie"
+}
 
+// selects all <a> elements nested inside elements with the class "sidebar"
 .sidebar a {
   color: #FF0000;
-} // selects all <a> elements nested inside elements with the class "sidebar"
+}
 
+// selects all elements (universal selector)
 * {
   margin: 0;
-} // selects all elements (universal selector)
+}
 ```
 
 ---
