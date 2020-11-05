@@ -4,3 +4,5 @@
 
 - [command line](command-line.md)
 - [git](git.md)
+- [HTML](html.md)
+- [CSS: The Basics](css.md)
