@@ -9,3 +9,4 @@
 - [CSS: Layout](css-layout.md) _this includes flexbox_
 - [Intro to JS](intro-js.md)
 - [JS Arrays](js-arrays.md)
+- [JS and the DOM](js-and-the-dom.md)
