@@ -10,3 +10,4 @@
 - [Intro to JS](intro-js.md)
 - [JS Arrays](js-arrays.md)
 - [JS and the DOM](js-and-the-dom.md)
+- [Forms, validation, and JS](web-forms.md)
