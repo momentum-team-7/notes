@@ -1,29 +1,32 @@
-autoscale: true
-
 # Debugging in JavaScript
 
----
-
-# What is a bug?
-
-### The first bug!
-
-![](images/first-bug.jpg)
-( source:
-The Smithsonian National Museum of American History (https://americanhistory.si.edu/collections/search/object/nmah_334663))
-
+## What is a bug?
 
 A bug is an unintended consequence of running code.
 
 **Debugging** is the process of finding and fixing bugs in code.
 
+## The first bug!
+
+![](images/first-bug.jpg)
+( source:
+[The Smithsonian National Museum of American History](https://americanhistory.si.edu/collections/search/object/nmah_334663))
+
 ---
 
 ## Categories of bugs
 
-- _Syntax error_: a programming language operates according to certain structural rules. If you violate what the interpreter expects (e.g., you omit a parenthesis or you put a character in the wrong place), your program won't run.
-- _Runtime error_: Also called **exceptions**. The program runs and the syntax is correct, but encounters something unexpected and therefore bad -- something that was unforeseen and not accounted for by the programmer (e.g., you call a function that does not exist).
-- _Logic error_: This is the hardest one to debug, because it does not produce an actual error. The outcome is just not what you had intended: it is correct in terms of programming, but it doesn't do what you want it to do.
+### Syntax error
+
+A programming language operates according to certain structural rules. If you violate what the interpreter expects (e.g., you omit a parenthesis or you put a character in the wrong place), your program won't run.
+
+ ### Runtime error
+
+ Also called **exceptions**. The program runs and the syntax is correct, but encounters something unexpected and therefore bad -- something that was unforeseen and not accounted for by the programmer (e.g., you call a function that does not exist).
+
+### Logic error
+
+This is the hardest one to debug, because it does not produce an actual error. The outcome is just not what you had intended: it is correct in terms of programming, but it doesn't do what you want it to do.
 
 ---
 
@@ -117,12 +120,12 @@ You can set a _breakpoint_ to force your program to stop running at a certain pl
 
 - Set a breakpoint
 
-  - in Chrome DevTools on Sources panel
+  - In Chrome DevTools on Sources panel
   - You can also use the `debugger` keyword in your js file
 
 - Step through your code line by line (use arrow icons)
 - `esc` key to open a console that you can type in
-- Play button will resume execution
+- ▶️ Play button will resume execution
 
 ---
 
@@ -207,7 +210,7 @@ We can _throw_ or _raise_ an exception in order to handle specific cases where w
 
 ---
 
-# try...catch
+## `try...catch`
 
 If we anticipate that an error or exception might be thrown, we can set up our code to catch that error.
 
@@ -223,7 +226,7 @@ _Handling the error_ prevents it from stopping execution of the rest of the prog
 
 ---
 
-### try...catch example
+## `try...catch` example
 
 ```js
 // This function is designed to throw an error in certain cases:
@@ -249,7 +252,7 @@ function applyDiscount (discountPercent) {
 
 ---
 
-### try...catch...finally
+### `try...catch...finally`
 
 You can also add a `finally` block to ensure code that always executes (if you do, you won't be able to return values from the try or catch blocks).
 
