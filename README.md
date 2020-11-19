@@ -12,3 +12,5 @@
 - [JS and the DOM](js-and-the-dom.md)
 - [Forms, validation, and JS](web-forms.md)
 - [Debugging in JS](debugging.md)
+- [JS Objects](js-objects.md)
+- [AJAX](ajax-http.md)
