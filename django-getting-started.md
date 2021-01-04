@@ -23,7 +23,7 @@ When you run `django-admin startproject <your_project> .` or when you create a p
     - 🙅‍♀️ `wsgi.py` - also used in deployment.
 
 The `django-admin startapp <appname>` command creates individual "apps" inside your Django project, which each have a set structure and collection of files. The Momentum Django Template runs this command to create a `users` app and a main app for the project. Colloquially, we call the whole Django project an "app," but, in strict Django terminology, an "app" is a specific unit of structure and function within a project. The Django projects we build will likely have two "apps", `users` and `<the main app>`. Uptact has `users` and `contacts`, which each contain the same kinds of files.
--` migrations/` - when you run `./manage.py makemigrations`Django checks for changes in your models and generates migration files that contain instructions for changing the database to match the models. `./manage.py migrate` actually applies the migrations files to the database.
+- `migrations/` - when you run `./manage.py makemigrations`Django checks for changes in your models and generates migration files that contain instructions for changing the database to match the models. `./manage.py migrate` actually applies the migrations files to the database.
     - 🙅‍♀️ `__init__.py` 
     - `0001_initial.py`
     - `...`
