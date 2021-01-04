@@ -14,3 +14,4 @@
 - [Debugging in JS](debugging.md)
 - [JS Objects](js-objects.md)
 - [AJAX](ajax-http.md)
+- [Tour of a Django App]()
