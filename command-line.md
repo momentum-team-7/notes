@@ -10,6 +10,8 @@ Alexs-MacBook-Pro:~ alexrandall$ pwd
 
 When commands are entered successfully, you don’t always receive feedback that something happened. The usual indication that everything is OK is the appearance of the prompt.
 
+### NOTE
+The prompt often starts with a `$`. You installed the [starship prompt](https://starship.rs/) as part of the computer setup instructions. That changed the way your prompt looks and the information it displays. With starship installed, your prompt will start with this character: `❯` instead of `$`.
 ## Commands
 
 The structure of commands follows a consistent pattern.
@@ -19,6 +21,8 @@ Options and arguments are not always required, but different commands have diffe
 ```sh
 $ command [-options] [arguments]
 ```
+
+Note: The dollar sign symbol is there to indicate the start of the command line prompt. Don't type that in!
 
 ## Arguments
 
@@ -30,6 +34,8 @@ One or more arguments may usually be included, separated by whitespace.
 $ cal Nov 2018
 $ ls ~/Documents/
 ```
+
+⚠️ Remember: don't type in the `$`! That's just there to indicate the start of your command line prompt.
 
 ## Options
 
@@ -58,13 +64,13 @@ $ man cal
 
 ## Exiting `man`
 
-man pages use another utility called less to display information. Check out the man pages on it!
+`man` pages use another utility called `less` to display information. Check out the man pages on it!
 
-To get back to the prompt from less, press "q".
+To get back to the prompt from `less`, press "q".
 
 ## How to get back to the prompt
 
-If the command line hangs or you want to stop a process that is ongoing, use the keystroke Ctrl-C. Sometimes you’ll see it written as ^C.
+If the command line hangs or you want to stop a process that is ongoing, use the keystroke Ctrl-C. Sometimes you’ll see it written as `^C`.
 
 Try this out by using the following command:
 
