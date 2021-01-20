@@ -136,7 +136,7 @@ As in a family tree, an HTML document structure has ancestors, parents, children
 
 # Let's build an HTML page together!
 
-[team examples repo](https://github.com/momentum-team-5/examples)
+[team examples repo](https://github.com/momentum-team-7/examples)
 
 ---
 
