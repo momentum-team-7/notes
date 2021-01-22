@@ -22,9 +22,8 @@ width: 50%;
 width: 30rem;
 height: 200px;
 height: 10rem;
+height: 100vh;
 ```
-
-Why would you not use a percentage measurement for height?
 
 ---
 
