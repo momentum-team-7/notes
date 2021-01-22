@@ -63,18 +63,10 @@ The height property will maintain the image's aspect ratio.
 ## Media Queries
 
 ```css
-@media screen and (max-width: 1024px) {
-  ...
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  ...
-}
-@media print {
-  ...
-} /* if the page is printed by the user */
-@media (max-width: 576px) {
-  ...
-} /* applies to all types */
+@media screen and (max-width: 1024px) {...}
+@media screen and (min-width: 768px) and (max-width: 1023px) {...}
+@media print {...} /* if the page is printed by the user */
+@media (max-width: 576px) {...} /* applies to all types */
 ```
 
 Media types to keep in mind are print and screen. Including a media type in a media query is optional.
@@ -87,10 +79,10 @@ Device sizes are going to change all the time, so don't worry about getting the 
 
 People do like standards, so here are some, taken from Bootstrap 4.
 
-**phones**: >= 576px
-**tablets**: >= 768px
-**desktops**: >= 992px
-**big desktops**: >= 1200px
+- **phones**: >= 576px
+- **tablets**: >= 768px
+- **desktops**: >= 992px
+- **big desktops**: >= 1200px
 
 [Bootstrap 4 responsive breakpoints](https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints)
 
