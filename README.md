@@ -7,3 +7,4 @@
 - [HTML](html.md)
 - [CSS](css.md)
 - [CSS Layout](css-layout.md) _This includes Flexbox_
+- [CSS: Responsive Layout](css-responsive.md)
