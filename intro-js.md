@@ -197,7 +197,7 @@ points++ // same as points = points + 1
 ## Write some JavaScript 2
 
 1. Clone the following repo:
-   `https://github.com/momentum-team-5/in-class-js-hello-world`
+   `https://github.com/momentum-team-7/examples/tree/main/js-hello-world-exercise`
 2. Open the repo in VS Code. You'll be working on the exercises in `main.js`.
 3. Open `index.html` in your browser.
 4. In the browser, open the dev tools and go to the JavaScript console by clicking on the "Console" tab.
