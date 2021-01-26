@@ -232,9 +232,12 @@ Statements are executed to make something happen.
 
 ## Conditionals
 
-One of the most basic things we need to do in programming is say "if this thing is true, then do this other thing."
+One of the most basic things we need to do in programming is say "if this thing is true, then do this. (And if it's not true, then don't do it.)"
 
-We use **if/else** statements for this.
+Sometimes we also want to say "And if it's not true, then do that."
+
+
+We use **if** and **if/else** statements for this.
 
 ---
 
