@@ -13,3 +13,4 @@
 - [JavaScript and the DOM](js-and-the-dom.md)
 - [Web Forms](web-forms.md)
 - [Debugging JavaScript](debugging.md)
+- [JS Objects](js-objects.md)
