@@ -49,7 +49,7 @@ _D_elete some data -> `DELETE`
 
 # Status Codes
 
-An HTTP response message includes a status code that can indicate something about the state of the request. These are chosen by humans and aren't always exremely precise!
+An HTTP response message includes a status code that can indicate something about the state of the request. These are chosen by humans and aren't always extremely precise!
 
 - `1xx`: Informational
 - `2xx`: Success
