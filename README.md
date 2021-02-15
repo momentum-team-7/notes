@@ -14,4 +14,5 @@
 - [Debugging in JS](debugging.md)
 - [JS Objects](js-objects.md)
 - [AJAX](ajax-http.md)
+- [Intro to Python](intro-python.md)
 
