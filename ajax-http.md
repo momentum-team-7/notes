@@ -19,7 +19,11 @@ This way, you can get and send data to a server without having to reload the pag
   - `?` the start of the query string
   - `key=value` param pair
   - `&` (ampersand character) used to add additional query params
+<<<<<<< HEAD
 - ACSII encoding: only characters in the [ASCII](https://en.wikipedia.org/wiki/ASCII) char set
+=======
+- URL encoding: only characters in the [ASCII](https://en.wikipedia.org/wiki/ASCII) char set
+>>>>>>> c507c900e7e60fb0bc587fd133b7e833e9faf849
   - e.g. space represented as `%20`
 
 ---
@@ -49,7 +53,11 @@ _D_elete some data -> `DELETE`
 
 # Status Codes
 
+<<<<<<< HEAD
 An HTTP response message includes a status code that can indicate something about the state of the request. These are chosen by humans and aren't always exremely precise!
+=======
+An HTTP response message includes a status code that can indicate something about the state of the request. These are chosen by humans and aren't always extremely precise!
+>>>>>>> c507c900e7e60fb0bc587fd133b7e833e9faf849
 
 - `1xx`: Informational
 - `2xx`: Success
@@ -80,7 +88,11 @@ fetch(url, {
   .then(function (data) {
     console.log('You have been successfully subscribed', data)
   })
+<<<<<<< HEAD
   .catch(function (error) {
     console.log('Something went wrong', error)
   })
+=======
+
+>>>>>>> c507c900e7e60fb0bc587fd133b7e833e9faf849
 ```
