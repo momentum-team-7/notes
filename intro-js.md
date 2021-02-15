@@ -49,7 +49,11 @@
 2. Create a file called `main.js`.
 3. In that file, type the following line, and be sure to save the file:
    `console.log("Hello, World!")`
+<<<<<<< HEAD
+4. Link your JS file to your html page: put a `script` tag with a `src` attribute that links to your javascript file in the <head> element in your html document:
+=======
 4. Link your JS file to your html page: put a `script` tag with a `src` attribute that links to your javascript file in the `<head>` element in your html document:
+>>>>>>> c507c900e7e60fb0bc587fd133b7e833e9faf849
    `<script src="main.js"></script>`
 5. Load the html page in the browser.
 6. Open the javascript console in the developer tools. You should see `Hello, World!` printed there.
@@ -197,7 +201,11 @@ points++ // same as points = points + 1
 ## Write some JavaScript 2
 
 1. Clone the following repo:
+<<<<<<< HEAD
+   `https://github.com/momentum-team-5/in-class-js-hello-world`
+=======
    `https://github.com/momentum-team-7/examples/tree/main/js-hello-world-exercise`
+>>>>>>> c507c900e7e60fb0bc587fd133b7e833e9faf849
 2. Open the repo in VS Code. You'll be working on the exercises in `main.js`.
 3. Open `index.html` in your browser.
 4. In the browser, open the dev tools and go to the JavaScript console by clicking on the "Console" tab.
@@ -232,12 +240,18 @@ Statements are executed to make something happen.
 
 ## Conditionals
 
+<<<<<<< HEAD
+One of the most basic things we need to do in programming is say "if this thing is true, then do this other thing."
+
+We use **if/else** statements for this.
+=======
 One of the most basic things we need to do in programming is say "if this thing is true, then do this. (And if it's not true, then don't do it.)"
 
 Sometimes we also want to say "And if it's not true, then do that."
 
 
 We use **if** and **if/else** statements for this.
+>>>>>>> c507c900e7e60fb0bc587fd133b7e833e9faf849
 
 ---
 

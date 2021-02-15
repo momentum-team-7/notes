@@ -22,9 +22,16 @@ width: 50%;
 width: 30rem;
 height: 200px;
 height: 10rem;
+<<<<<<< HEAD
+```
+
+Why would you not use a percentage measurement for height?
+
+=======
 height: 100vh;
 ```
 
+>>>>>>> c507c900e7e60fb0bc587fd133b7e833e9faf849
 ---
 
 # Centering
