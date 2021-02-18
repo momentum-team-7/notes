@@ -15,4 +15,6 @@
 - [JS Objects](js-objects.md)
 - [AJAX](ajax-http.md)
 - [Intro to Python](intro-python.md)
+- [Python Lists, Dictionaries, & Tuples](python-lists-dicts-tuples.md)
+- [Python Virtual Environments](python-virtual-environments.md)
 
