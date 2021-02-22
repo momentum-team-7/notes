@@ -17,4 +17,5 @@
 - [Intro to Python](intro-python.md)
 - [Python Lists, Dictionaries, & Tuples](python-lists-dicts-tuples.md)
 - [Python Virtual Environments](python-virtual-environments.md)
+- [Object Oriented Python](python-object-oriented.md)
 
