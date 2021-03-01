@@ -18,4 +18,6 @@
 - [Python Lists, Dictionaries, & Tuples](python-lists-dicts-tuples.md)
 - [Python Virtual Environments](python-virtual-environments.md)
 - [Object Oriented Python](python-object-oriented.md)
+- [Django Getting Started](django-getting-started.md)
+- [Django Database](django-database.md)
 
