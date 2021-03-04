@@ -26,7 +26,7 @@ If you have multiple branches, you get to the one you want to work on with
 2. Check out your branch.  
 ```git checkout <name-of-branch>```  
 3. Merge any recent changes from `main` into your branch.  
-```git merge main```  
+```git merge main```   
 4. If you get a message that you got merge conflicts, go to VS code and fix them.
 5. Push the post-merge version of your branch to GitHub.  
 ```git push```  
@@ -37,8 +37,8 @@ If you have multiple branches, you get to the one you want to work on with
 9. *Teammate* leaves feedback on your pull request.
 10. *You* respond to feedback, add, commit, and push, and ask for a second review.
 11. *Teammate* approves your pull request and merges it on the GitHub site. They delete the branch.
-12. *Everybody* 
-Update your local version of `main`
+12. *Everybody*  
+Update your local version of `main`  
 ```git checkout main```  
 ```git pull```  
 
